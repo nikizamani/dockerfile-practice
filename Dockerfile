@@ -1,7 +1,5 @@
 #Author: Niki Zamani
 
-FROM debian:stable
+FROM ubcdsci/jupyterlab
 
-RUN apt-get update
-
-RUN apt-get install --yes r-base r-base-dev 
+RUN conda install scipy=0.15.0
