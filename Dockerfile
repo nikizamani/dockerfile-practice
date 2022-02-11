@@ -2,4 +2,4 @@
 
 FROM ubcdsci/jupyterlab
 
-RUN conda install scipy=0.15.0
+RUN conda install --channel conda-forge scipy=1.8.0
